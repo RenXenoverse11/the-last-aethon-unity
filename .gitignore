@@ -31,6 +31,10 @@
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
+# Unity MCP debug screenshots - disposable verification artifacts
+/Assets/Screenshots/
+/Assets/Screenshots.meta
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
