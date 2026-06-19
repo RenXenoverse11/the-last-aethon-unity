@@ -81,6 +81,27 @@
             "bindings": [
                 { "name": "", "id": "8f1b6a2e-0003-4000-8000-000000000003", "path": "<Keyboard>/h", "interactions": "", "processors": "", "groups": "", "action": "DamageTest", "isComposite": false, "isPartOfComposite": false }
             ]
+        },
+        {
+            "name": "Dialogue",
+            "id": "8f1b6a2e-0004-4000-8000-000000000001",
+            "actions": [
+                {
+                    "name": "Advance",
+                    "type": "Button",
+                    "id": "8f1b6a2e-0004-4000-8000-000000000002",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                { "name": "", "id": "8f1b6a2e-0004-4000-8000-000000000003", "path": "<Keyboard>/z", "interactions": "", "processors": "", "groups": "Keyboard&Mouse", "action": "Advance", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "8f1b6a2e-0004-4000-8000-000000000004", "path": "<Keyboard>/enter", "interactions": "", "processors": "", "groups": "Keyboard&Mouse", "action": "Advance", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "8f1b6a2e-0004-4000-8000-000000000005", "path": "<Keyboard>/space", "interactions": "", "processors": "", "groups": "Keyboard&Mouse", "action": "Advance", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "8f1b6a2e-0004-4000-8000-000000000006", "path": "<Mouse>/leftButton", "interactions": "", "processors": "", "groups": "Keyboard&Mouse", "action": "Advance", "isComposite": false, "isPartOfComposite": false }
+            ]
         }
     ],
     "controlSchemes": [
