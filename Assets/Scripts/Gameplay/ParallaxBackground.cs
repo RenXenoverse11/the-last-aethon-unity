@@ -14,8 +14,6 @@ namespace TheLastAethon.Gameplay
         [SerializeField] private Transform cameraTransform;
         [SerializeField] private Layer[] layers;
 
-        private float[] tileWidth;
-        private Material[] materials;
         private float lastCameraX;
 
         private void Awake()
@@ -25,21 +23,6 @@ namespace TheLastAethon.Gameplay
                 Debug.LogError("ParallaxBackground: cameraTransform is not assigned.", this);
                 enabled = false;
                 return;
-            }
-
-            tileWidth = new float[layers.Length];
-            materials = new Material[layers.Length];
-
-            for (int i = 0; i < layers.Length; i++)
-            {
-                SpriteRenderer renderer = layers[i].renderer;
-                if (renderer == null)
-                {
-                    continue;
-                }
-
-                tileWidth[i] = renderer.size.x;
-                materials[i] = renderer.material;
             }
 
             lastCameraX = cameraTransform.position.x;
@@ -58,13 +41,7 @@ namespace TheLastAethon.Gameplay
                     continue;
                 }
 
-                Transform layerTransform = renderer.transform;
-                layerTransform.position += new Vector3(deltaX, 0f, 0f);
-
-                float uvDelta = (deltaX * layers[i].scrollFactor) / tileWidth[i];
-                Vector2 offset = materials[i].mainTextureOffset;
-                offset.x += uvDelta;
-                materials[i].mainTextureOffset = offset;
+                renderer.transform.position += new Vector3(deltaX * layers[i].scrollFactor, 0f, 0f);
             }
 
             lastCameraX = currentCameraX;

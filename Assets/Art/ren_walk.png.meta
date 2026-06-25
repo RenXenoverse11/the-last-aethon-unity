@@ -44,6 +44,54 @@ TextureImporter:
   - first:
       213: -8476653410881082792
     second: ren_run_13
+  - first:
+      213: 8574530040126240248
+    second: ren_walk_0
+  - first:
+      213: -3900005278990195298
+    second: ren_walk_1
+  - first:
+      213: -6944350382901203488
+    second: ren_walk_2
+  - first:
+      213: 3211293829599126378
+    second: ren_walk_3
+  - first:
+      213: -1213353317335617714
+    second: ren_walk_4
+  - first:
+      213: 1380500561990453995
+    second: ren_walk_5
+  - first:
+      213: 5108568011610003006
+    second: ren_walk_6
+  - first:
+      213: -9035250569442068761
+    second: ren_walk_7
+  - first:
+      213: 7236933732559320760
+    second: ren_walk_8
+  - first:
+      213: 8252237070223749807
+    second: ren_walk_9
+  - first:
+      213: -6266109373195934990
+    second: ren_walk_10
+  - first:
+      213: 1850144446214273207
+    second: ren_walk_11
+  - first:
+      213: 1407547080896377353
+    second: ren_walk_12
+  - first:
+      213: -6577776815188709077
+    second: ren_walk_13
+  - first:
+      213: 1190654181776282250
+    second: ren_walk_14
+  - first:
+      213: -1135428499279999091
+    second: ren_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,309 +200,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ren_run_0
+      name: ren_walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3137
-        width: 477
-        height: 928
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3075
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa542b4e565e33a60800000000000000
-      internalID: 7652712417623950767
+      spriteID: 8f5f3a544a9def670800000000000000
+      internalID: 8574530040126240248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_1
+      name: ren_walk_1
       rect:
         serializedVersion: 2
-        x: 599
-        y: 3137
-        width: 519
-        height: 938
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 600
+        y: 3075
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4384aafb9f3fcf10800000000000000
-      internalID: 2292120674512438091
+      spriteID: e9524a3acd560e9c0800000000000000
+      internalID: -3900005278990195298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_2
+      name: ren_walk_2
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 3137
-        width: 576
-        height: 926
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1200
+        y: 3075
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee2f99ca3fc709520800000000000000
-      internalID: 2706800762064335598
+      spriteID: 0ed63579e16b0af90800000000000000
+      internalID: -6944350382901203488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_3
+      name: ren_walk_3
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 3137
-        width: 542
-        height: 919
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1800
+        y: 3075
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edd2475ff9cbc3680800000000000000
-      internalID: -8773930578820715042
+      spriteID: a63e8ae49bec09c20800000000000000
+      internalID: 3211293829599126378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2113
-        width: 575
-        height: 928
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f11a629a6a7cf3d0800000000000000
-      internalID: -3171525439434124809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ren_run_5
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 2100
-        width: 1801
-        height: 945
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 249d4f494b1394180800000000000000
-      internalID: -9130712117854021310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ren_run_6
+      name: ren_walk_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 1076
-        width: 564
-        height: 943
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2050
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a874f124718f05e00800000000000000
-      internalID: 1031597093445126026
+      spriteID: e4f2b25269d492fe0800000000000000
+      internalID: -1213353317335617714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_7
+      name: ren_walk_5
       rect:
         serializedVersion: 2
-        x: 599
-        y: 1077
-        width: 516
-        height: 945
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 600
+        y: 2050
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc83c18c6e73ead40800000000000000
-      internalID: 5597472851207403727
+      spriteID: bea0ba962f5882310800000000000000
+      internalID: 1380500561990453995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_8
+      name: ren_walk_6
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 1079
-        width: 548
-        height: 927
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1200
+        y: 2050
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2fae94531e7f4350800000000000000
-      internalID: 6003155449797324591
+      spriteID: e3610fa4a8745e640800000000000000
+      internalID: 5108568011610003006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_9
+      name: ren_walk_7
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 1080
-        width: 523
-        height: 933
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1800
+        y: 2050
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 331c0be226e1b14c0800000000000000
-      internalID: -4315822410865524429
+      spriteID: 7e672c75a775c9280800000000000000
+      internalID: -9035250569442068761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_10
+      name: ren_walk_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 53
-        width: 551
-        height: 945
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1025
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4af0c552146f0f1b0800000000000000
-      internalID: -5624725174925652060
+      spriteID: 8b67d3803e0ce6460800000000000000
+      internalID: 7236933732559320760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_11
+      name: ren_walk_9
       rect:
         serializedVersion: 2
-        x: 599
-        y: 54
-        width: 550
-        height: 925
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 600
+        y: 1025
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10c3faac93202a770800000000000000
-      internalID: 8620455083977423873
+      spriteID: fa23ff4a4e5d58270800000000000000
+      internalID: 8252237070223749807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_12
+      name: ren_walk_10
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 63
-        width: 576
-        height: 928
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1200
+        y: 1025
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c0f4350c1b4e14b0800000000000000
-      internalID: -5467850313862680379
+      spriteID: 2f229ee69be4a09a0800000000000000
+      internalID: -6266109373195934990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ren_run_13
+      name: ren_walk_11
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 66
-        width: 601
-        height: 929
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1800
+        y: 1025
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85a645052a0ec5a80800000000000000
-      internalID: -8476653410881082792
+      spriteID: 7b873c342980da910800000000000000
+      internalID: 1850144446214273207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ren_walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9027771dc9c988310800000000000000
+      internalID: 1407547080896377353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ren_walk_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2170ee46da07b4a0800000000000000
+      internalID: -6577776815188709077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ren_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82db138bad068010800000000000000
+      internalID: 1190654181776282250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ren_walk_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.5, y: 0.056585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f8f80bbc52e30f0800000000000000
+      internalID: -1135428499279999091
       vertices: []
       indices: 
       edges: []
@@ -487,6 +579,22 @@ TextureImporter:
       ren_run_7: 5597472851207403727
       ren_run_8: 6003155449797324591
       ren_run_9: -4315822410865524429
+      ren_walk_0: 8574530040126240248
+      ren_walk_1: -3900005278990195298
+      ren_walk_10: -6266109373195934990
+      ren_walk_11: 1850144446214273207
+      ren_walk_12: 1407547080896377353
+      ren_walk_13: -6577776815188709077
+      ren_walk_14: 1190654181776282250
+      ren_walk_15: -1135428499279999091
+      ren_walk_2: -6944350382901203488
+      ren_walk_3: 3211293829599126378
+      ren_walk_4: -1213353317335617714
+      ren_walk_5: 1380500561990453995
+      ren_walk_6: 5108568011610003006
+      ren_walk_7: -9035250569442068761
+      ren_walk_8: 7236933732559320760
+      ren_walk_9: 8252237070223749807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
