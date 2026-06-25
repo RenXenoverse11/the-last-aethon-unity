@@ -76,10 +76,20 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "ManaTest",
+                    "type": "Button",
+                    "id": "8f1b6a2e-0003-4000-8000-000000000004",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
-                { "name": "", "id": "8f1b6a2e-0003-4000-8000-000000000003", "path": "<Keyboard>/h", "interactions": "", "processors": "", "groups": "", "action": "DamageTest", "isComposite": false, "isPartOfComposite": false }
+                { "name": "", "id": "8f1b6a2e-0003-4000-8000-000000000003", "path": "<Keyboard>/h", "interactions": "", "processors": "", "groups": "", "action": "DamageTest", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "8f1b6a2e-0003-4000-8000-000000000005", "path": "<Keyboard>/j", "interactions": "", "processors": "", "groups": "", "action": "ManaTest", "isComposite": false, "isPartOfComposite": false }
             ]
         },
         {
